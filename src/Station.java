@@ -1,4 +1,4 @@
 public abstract class Station {
-    private String[] adresses;
+    private int numIndex;
 
 }

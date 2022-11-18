@@ -16,5 +16,6 @@ public class Fournisseur extends Station {
     }
 
     private ProduitFournisseur produit;
+    private Adresse adresse;
 
 }
