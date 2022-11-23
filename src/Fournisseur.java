@@ -14,8 +14,23 @@ public class Fournisseur extends Station {
             this.nombreTours = nombreTours;
         }
     }
-
-    private ProduitFournisseur produit;
+    private int numeroStation;
+    private int numeroBoite;
+    private String produit;
     private Adresse adresse;
 
+    public Fournisseur(int numeroStation, int numeroBoite,
+                       String produit) {
+        this.numeroStation = numeroStation;
+        this.numeroBoite = numeroBoite;
+        this.produit = produit;
+    }
+
+    public String toString () {
+        return "fou F: " + numeroStation + " " + produit + " " +
+                numeroBoite
+                + " (" + numeroStation + "," + numeroBoite + ")";
+    }
 }
+
+
